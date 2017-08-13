@@ -1,6 +1,6 @@
 require 'sinatra'
 
-set :public_folder, 'www.rstarcraft.info'
+set :public_folder, './'
 
 get '/' do
   redirect '/index.html'
